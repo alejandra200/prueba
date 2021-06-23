@@ -1,0 +1,28 @@
+//Ahora, vamos a crear una hoja similar para login y vamos a
+//probar que ambas rutas funcionen adecuadamente. Una vez
+//hecho esto podemos proceder a crear diferentes rutas para
+//nuestros aplicativos.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/resources/css/style.css">
+
+</head>
+<body>
+    <h2>Login con NodeJS</h2>
+    <div class="login-form">
+        <form action="auth" method="POST">
+            <input type="text" name="user" placeholder="User" required>
+            <input type="password" name="pass" id="pass" placeholder="password" required>
+            <input type="submit" class="btn-login" value="login">
+
+        </form>
+        <a href="register" class="btn-register">Register</a>
+    </div>
+</body>
+</html>
